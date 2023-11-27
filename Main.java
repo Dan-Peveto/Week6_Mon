@@ -11,6 +11,9 @@ public class Main {
         window.setSize(500, 600);
         window.setVisible(true);
         TestJFrame window2 = new TestJFrame();
+        window2.setContentPane(new MyJPanel());
+        
+
     }
 
     
