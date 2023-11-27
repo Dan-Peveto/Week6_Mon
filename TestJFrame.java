@@ -1,11 +1,15 @@
+import java.awt.Container;
+import java.awt.Panel;
+
 import javax.swing.*;
 
 public class TestJFrame extends JFrame {
     
-    public JPanel panel;
+    JPanel panel;
     
     public TestJFrame() {
         super("TicTacToe Game");
+        panel = new JPanel();
         setContentPane(panel);
         setLocation(0, 900);
         setSize(500, 600);
