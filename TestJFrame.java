@@ -7,6 +7,9 @@ public class TestJFrame extends JFrame {
     
     public TestJFrame() {
         super("TicTacToe Game");
+
+       
+
         panel = new JPanel();
         setContentPane(panel);
         setLocation(0, 900);
