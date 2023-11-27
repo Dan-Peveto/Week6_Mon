@@ -1,8 +1,6 @@
-import java.awt.BorderLayout;
-import java.awt.Graphics;
+import java.awt.*;
 
-import javax.swing.JButton;
-import javax.swing.JPanel;
+import javax.swing.*;
 
 public class MyJPanel extends JPanel{
    
