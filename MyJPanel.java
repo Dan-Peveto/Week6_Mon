@@ -11,13 +11,16 @@ public class MyJPanel extends JPanel{
     public MyJPanel() {
         super();
         setLayout(new BorderLayout());
+        okButton.addActionListener(new MyOkButtonHandler());
+        cancelButton.addActionListener(e -> PrintOnClick());
         add(okButton, BorderLayout.CENTER);
         add(cancelButton, BorderLayout.SOUTH);
     }
+    public void PrintOnClick() {
+        System.out.println("I am on the console");
+    }
     @Override
     protected void paintComponent(Graphics g) {
-        
-        super.paintComponent(g);
         g.drawString("Hello Worlds", ALLBITS, ABORT);
     }
 }
